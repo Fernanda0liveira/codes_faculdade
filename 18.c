@@ -1,0 +1,43 @@
+# include <stdio.h> 
+
+void bubbleSort(int *vetor) {
+
+    int i, j, aux;
+    for(i = 0; i < 2; i++) {
+        for (j = 0; j < 2; j++) { 
+            if (vetor[j] > vetor[j] + 1) {
+                aux = vetor[j];
+                vetor[j] =vetor [j + 1];
+                vetor[j+ 1] = aux;
+            }
+
+        }
+    }
+}
+
+int main () {
+    int vetorOriginal[3], vetorOrdenado[3];
+    int i; 
+
+    for(i = 0; i < 3; i++) {
+        scanf("%d", &vetorOriginal[1]);
+
+        vetorOrdenado[i] = vetorOriginal[i];
+
+    }
+
+     bubbleSort(vetorOrdenado);
+
+     for(i = 0; i < 3; i++) {
+        printf("%d", vetorOrdenado[i]);
+
+        printf("\n");
+
+        for(i = 0; i < 3; i++) {
+        printf("%d", vetorOriginal[i]);
+
+        return 0;
+
+     }
+}
+}
