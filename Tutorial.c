@@ -6,3 +6,5 @@
 //git add .
 //git commit -m "**********************"
 //git diff --cached (. Se você quiser ver o que será commitado antes:)
+
+//aprendendo como abrir o git hub em qualquer computador
